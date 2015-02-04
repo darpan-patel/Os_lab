@@ -1,0 +1,81 @@
+1.	There are following steps to login as guest:
+a.	Add user- sudo useradd guest
+b.	Add password- sudo passwd guest
+c.	To exit GUI mode press ctrl+alt+F2 and login as guest by providing username as guest.
+
+2.	pwd
+/home/kavan
+3.	ls
+
+4.	commands in bin: cat, chgrp, chmod, date, mkdir etc and 
+commands in sbin: fastboot, ipconfig, fdisk, init, update etc
+
+5.	
+
+6.	ls –l / home
+total  4
+drwxr-xr-x 23 kavan kavan 4096 2015-01-20 22:01
+
+7.	sudo mkdir /home/guest/test
+
+8.	ls –l/home/guest
+                              total 4 
+		drwxr-xr-x 2 root root 4096 2015-01-20 22:48
+
+9.	cp /etc/resolv.conf 	/home/guest/test/
+10.	mv /home/guest/test 	/home/guest/testing
+
+11.	rm –r/home/guest/testing
+
+12.	chmode 755 /home/guest
+
+13.	chmode 700 /tmp
+
+14.	Press ctrl+alt+F3 and enter username as “root”
+
+15.	Chomd 700/home/guest
+
+16.	uname –r 
+3.0.0-12-generic
+
+17.	Press ctrl+alt+F3 and login name = root
+
+18.	cd /
+
+19.	goto /home directort and type ls home
+
+20.	vi /etc/group   guest:x:1001:
+
+21.	touch sidbi
+
+22.	ls –l sidbi
+
+23.	ls –I sidbi  
+290368 sidbi
+
+24.	cp sidbi sidbi1
+
+25.	ls –I sidbi1
+295701 sidbi1
+
+26.	mv sidbi sidbi2
+
+27.	ls –I sidbi2
+290368 sidbi2
+
+28.	mv sidbi2 sidbi
+
+29.	press ctrl+alt+F3 and enter login name = root
+
+       32. chmod 722 sidbi	
+
+
+
+
+
+
+
+
+
+
+
